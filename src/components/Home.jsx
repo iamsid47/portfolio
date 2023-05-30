@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Section2 from "./Section2";
+import Blockquote from "./Blockquote";
 import Footer from "./Footer";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Section2 />
+      <Blockquote />
       <Footer />
     </section>
   );

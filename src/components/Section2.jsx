@@ -26,32 +26,34 @@ const data = [
 
 const Section2 = () => {
   return (
-    <section className="grid grid-cols-3 space-x-1">
-      {data.map((item) => (
-        <section className="max-w-lg">
-          <a href="/" class="group relative block">
-            <div class="relative h-[350px] sm:h-[450px] overflow-hidden">
-              <img
-                src={item.img}
-                alt=""
-                class=" inset-0 h-full w-full object-cover opacity-100 brightness-50 hover:brightness-75"
-              />
-            </div>
+    <section>
+      <section className="grid grid-cols-3 space-x-1">
+        {data.map((item) => (
+          <section className="max-w-lg">
+            <a href="/" class="group relative block">
+              <div class="relative h-[350px] sm:h-[450px] overflow-hidden">
+                <img
+                  src={item.img}
+                  alt=""
+                  class=" inset-0 h-full w-full object-cover opacity-100 brightness-50 hover:brightness-75"
+                />
+              </div>
 
-            <div class="absolute inset-0 flex flex-col items-start justify-end p-6">
-              <h3 class="text-3xl font-medium ">{item.name}</h3>
+              <div class="absolute inset-0 flex flex-col items-start justify-end p-6">
+                <h3 class="text-3xl font-medium ">{item.name}</h3>
 
-              <p class="mt-1.5 max-w-[40ch] text-lg ">{item.des}</p>
+                <p class="mt-1.5 max-w-[40ch] text-lg ">{item.des}</p>
 
-              <a href={item.href}>
-                <span class="mt-3 inline-block rounded-md bg-blue-700 px-3.5 py-1.5 transition duration-200 text-sm font-semibold text-white shadow-sm hover:bg-blue-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 ">
-                  {item.lname}
-                </span>
-              </a>
-            </div>
-          </a>
-        </section>
-      ))}
+                <a href={item.href}>
+                  <span class="mt-3 inline-block rounded-md bg-blue-700 px-3.5 py-1.5 transition duration-200 text-sm font-semibold text-white shadow-sm hover:bg-blue-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 ">
+                    {item.lname}
+                  </span>
+                </a>
+              </div>
+            </a>
+          </section>
+        ))}
+      </section>
     </section>
   );
 };
