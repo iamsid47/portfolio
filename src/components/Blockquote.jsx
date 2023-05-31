@@ -18,16 +18,16 @@ const Blockquote = () => {
         </svg>
         <blockquote>
           <p class="text-2xl italic font-medium text-gray-900 dark:text-white">
-            "Some cool quote here."
+            “Big data isn’t about bits, it’s about talent.”
           </p>
         </blockquote>
         <figcaption class="flex items-center justify-center mt-6 space-x-3">
           <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
             <cite class="pr-3 font-medium text-gray-900 dark:text-white">
-              Siddhesh Kulthe
+              Douglas Merrill
             </cite>
             <cite class="pl-3 text-sm text-gray-500 dark:text-gray-400">
-              Sample
+              Zest AI
             </cite>
           </div>
         </figcaption>

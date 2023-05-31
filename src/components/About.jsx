@@ -1,12 +1,14 @@
 import React from "react";
+import Footer from "./Footer";
+import Blockquote from "./Blockquote";
 
 const About = () => {
   return (
     <section className="bg-gray-950 text-gray-50 font-light tracking-tight">
       <section className="">
-        <nav className=" pt-12 flex justify-center items-end p-4">
-          <h1 className="text-4xl uppercase tracking-tight font-light">
-            <a href="/" className="mx-5">
+        <nav className=" pt-4 flex justify-center items-end p-4">
+          <h1 className="text-3xl uppercase tracking-tight font-light">
+            <a href="/" className="mx-2">
               Siddhesh K.{" "}
             </a>
             /
@@ -17,7 +19,7 @@ const About = () => {
             </a>
           </h1>
         </nav>
-        <hr className="my-4 h-0.5 bg-gray-50 border-0" />
+        <hr className="my-1 h-0.5 bg-gray-50 border-0" />
       </section>
       <section className="py-10">
         <div className="flex justify-center items-center">
@@ -29,16 +31,29 @@ const About = () => {
             />
           </div>
           <div className="max-w-xl mx-8">
-            <h1 className="tracking-wide text-xl max-w-xl ml-12">
+            {/* <h1 className="tracking-wide text-xl max-w-xl ml-12">
               As a machine learning enthusiast, I'm deeply passionate about
               pushing the boundaries of what's possible with data-driven
               technologies. With unwavering dedication, I strive to create
               innovative solutions that harness the power of machine learning to
               drive positive change and unlock new opportunities.
-            </h1>
+            </h1> */}
+            <Blockquote />
           </div>
         </div>
       </section>
+      <section>
+        <div className="items-center mx-8 text-center px-20">
+          <h1 className="tracking-wide text-xl ml-12 my-5">
+            As a machine learning enthusiast, I'm deeply passionate about
+            pushing the boundaries of what's possible with data-driven
+            technologies. With unwavering dedication, I strive to create
+            innovative solutions that harness the power of machine learning to
+            drive positive change and unlock new opportunities.
+          </h1>
+        </div>
+      </section>
+      <Footer />
     </section>
   );
 };
