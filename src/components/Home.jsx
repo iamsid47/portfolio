@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Section2 from "./Section2";
-import Blockquote from "./Blockquote";
+import Section3 from "./Section3";
 import Footer from "./Footer";
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Section2 />
-      <Blockquote />
+      <Section3 />
       <Footer />
     </section>
   );

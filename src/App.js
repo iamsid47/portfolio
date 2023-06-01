@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import GetinTouch from "./components/contact/GetinTouch";
-import About from "./components/About";
+import About from "./components/about/About";
 
 function App() {
   return (
