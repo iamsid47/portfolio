@@ -61,7 +61,7 @@ const About = () => {
             </div>
             <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
               <img
-                className="w-[28rem] md:w-[48rem] max-w-none rounded-xl shadow-xl "
+                className="w-[24rem] md:w-[48rem] max-w-none rounded-xl shadow-xl "
                 src={Signature}
                 alt=""
               />

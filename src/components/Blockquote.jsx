@@ -72,7 +72,7 @@ const Blockquote = () => {
   }, [quotes]);
 
   return (
-    <section className="my-20">
+    <section className="my-20 mx-4">
       <figure class="max-w-screen-md mx-auto text-center">
         <svg
           aria-hidden="true"
