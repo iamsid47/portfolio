@@ -1,4 +1,5 @@
 import React from "react";
+import Social from "./Social";
 
 export default function Hero() {
   return (
@@ -45,16 +46,7 @@ export default function Hero() {
           </div>
         </div>
         <div>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="white"
-            width="24"
-            height="24"
-            className="animate-bounce"
-          >
-            <path d="M12 20c-.5 0-1-.2-1.4-.6L1.9 11.9c-.8-.8-.8-2 0-2.8s2-.8 2.8 0L12 16.6l7.3-7.5c.8-.8 2-.8 2.8 0s.8 2 0 2.8l-9.7 9.6c-.4.4-.9.6-1.4.6z" />
-          </svg>
+          <Social />
         </div>
       </div>
     </div>
