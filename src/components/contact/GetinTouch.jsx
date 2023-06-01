@@ -10,10 +10,10 @@ const GetinTouch = () => {
         <div className="min-h-screen p-4 flex items-center justify-center">
           <div className="container max-w-screen-lg mx-auto my-8">
             <div className="">
-              <h2 className="font-semibold text-4xl md:text-5xl my-1 text-center">
-                Get in touch with Siddhesh
-              </h2>
-              <p className=" mb-6 mt-3 text-center text-sm md:text-base">
+              <h1 className="animate-fade-in-up text-center mt-5 text-6xl font-bold leading-tight  sm:text-5xl sm:leading-tight lg:text-8xl lg:leading-tight uppercase bg-clip-text text-transparent bg-gradient-to-b from-gray-200 via-gray-400 to-gray-600">
+                Contact
+              </h1>
+              <p className=" mb-6 mt-2 text-center text-sm md:text-base">
                 Your response will be replied within the next 24-48 hours :)
               </p>
 
