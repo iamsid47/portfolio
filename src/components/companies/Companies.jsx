@@ -15,7 +15,7 @@ const Companies = () => {
                 <p className="inline-flex relative rounded-full px-3 py-1 text-sm leading-6  ring-1 hover:ring-white ring-blue-500 transition duration-200">
                   Solving real-world problems
                 </p>
-                <h1 className="mt-5 text-4xl font-bold leading-tight  sm:text-5xl sm:leading-tight lg:text-8xl lg:leading-tight uppercase bg-clip-text text-transparent bg-gradient-to-b from-gray-200 via-gray-400 to-gray-600">
+                <h1 className="animate-fade-in-up mt-5 text-4xl font-bold leading-tight  sm:text-5xl sm:leading-tight lg:text-8xl lg:leading-tight uppercase bg-clip-text text-transparent bg-gradient-to-b from-gray-200 via-gray-400 to-gray-600">
                   Companies
                 </h1>
                 <p className="max-w-md mx-auto mt-6 text-base leading-7 ">
