@@ -15,8 +15,7 @@ const Blockquote = () => {
         title: "American Inventor",
       },
       {
-        quote:
-          "If you cannot do great things, do small things in a great way..",
+        quote: "If you cannot do great things, do small things in a great way.",
         author: "Napoleon Hill",
         title: "American Author",
       },
