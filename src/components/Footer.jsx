@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="mx-auto max-w-screen-xl text-center flex flex-col md:flex-row justify-between items-center">
           <div className="flex flex-col lg:items-start justify-center items-center">
             <p className="my-2 text-xl text-gray-300 tracking-tight">
-              for the &hearts; of machine learning.
+              for the &#10084; of machine learning.
             </p>
             <ul className="flex flex-wrap justify-center items-center my-2 text-xs ">
               <li>
