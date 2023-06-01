@@ -14,7 +14,7 @@ const Footer = () => {
             <ul className="flex flex-wrap justify-center items-center my-2 text-xs ">
               <li>
                 <a
-                  href="/"
+                  href="/contact"
                   className="mr-4 hover:underline md:mr-6 underline-offset-8"
                 >
                   Get in touch
