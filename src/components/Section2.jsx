@@ -27,7 +27,7 @@ const data = [
 const Section2 = () => {
   return (
     <section>
-      <section className="grid grid-cols-3 space-x-1">
+      <section className="grid grid-cols-1 md:grid-cols-3 md:space-x-1 space-y-4 md:space-y-0">
         {data.map((item) => (
           <section className="max-w-lg">
             <a href={item.href} class="group relative block">
