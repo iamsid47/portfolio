@@ -59,7 +59,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+            <div className="md:-ml-12 -mt-12 p-6 md:p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
               <img
                 className="w-[24rem] md:w-[48rem] max-w-none rounded-xl shadow-xl "
                 src={Signature}
