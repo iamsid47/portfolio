@@ -6,8 +6,8 @@ const Footer = () => {
       <hr className=" h-0.5 bg-gray-50 border-0" />
 
       <footer className="p-4">
-        <div className="mx-auto max-w-screen-xl text-center flex justify-between items-center">
-          <div className="flex flex-col lg:items-start">
+        <div className="mx-auto max-w-screen-xl text-center flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-col lg:items-start justify-center items-center">
             <p className="my-2 text-xl text-gray-300 tracking-tight">
               for the &hearts; of machine learning.
             </p>
@@ -39,13 +39,13 @@ const Footer = () => {
             </ul>
           </div>
 
-          <span className="sm:text-center text-xs ">
+          <span className="sm:text-center text-xs my-3 md:my-0">
             © 2023,{" "}
             <a
               href="https://kulthe.com"
               rel="noreferrer"
               target="_blank"
-              className="underline underline-offset-8"
+              className="hover:underline md:underline underline-offset-8"
             >
               Kulthe Media, Limited
             </a>
