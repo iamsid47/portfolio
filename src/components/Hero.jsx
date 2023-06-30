@@ -19,7 +19,7 @@ export default function Hero() {
             </a>
           </div>
           <div className="text-center flex flex-col justify-center items-center">
-            <h1 className="animate-fade-in-up text-6xl md:text-8xl font-bold tracking-tighter text-white py-2">
+            <h1 className="animate-fade-in-up text-6xl md:text-8xl mx-3 font-bold tracking-tighter text-white py-2">
               Have an{" "}
               <span className="text-yellow-400 underline underline-offset-8">
                 idea
@@ -30,7 +30,7 @@ export default function Hero() {
               </span>
               ?
             </h1>
-            <p className="mt-6 text-lg leading-8 px-12 lg:w-3/5 tracking-normal">
+            <p className="mt-6 text-base lg:text-lg leading-8 px-12 lg:w-3/5 tracking-normal">
               Hey 👋 I'm Siddhesh. I'm a Machine Learning Engineer, also with
               experience in Web and App development. I can help you out with
               your idea or projects!

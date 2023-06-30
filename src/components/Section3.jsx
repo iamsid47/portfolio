@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const ComponentName = () => {
   return (
-    <div className="relative bgc">
+    <div className="relative bgc mx-6 lg:mx-0">
       <section className="relative ">
         <div className="absolute inset-0">
           <div className="absolute inset-y-0 left-0 w-1/2 "></div>
@@ -15,7 +15,7 @@ const ComponentName = () => {
               <h1 className="mt-10 text-3xl font-semibold text-white sm:text-4xl lg:text-7xl">
                 Is developing your idea hard?
               </h1>
-              <p className="mt-6 text-lg max-w-lg font-normal leading-7 text-gray-300">
+              <p className="mt-6 text-base lg:text-lg max-w-lg font-normal leading-7 text-gray-300">
                 I understand that startups have a hard time when it comes to
                 developing solutions. And that is why, I have decided to help
                 you out with your startup, in a fair exchange for 12% of your
@@ -23,7 +23,7 @@ const ComponentName = () => {
               </p>
               <div className="relative inline-flex mt-10">
                 <a href="/" title="" className="buttonc" role="button">
-                  Know More About Me &rarr;
+                  Learn More About Me &rarr;
                 </a>
               </div>
             </div>

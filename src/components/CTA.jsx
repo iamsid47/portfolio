@@ -26,7 +26,7 @@ export default function CTA() {
             <h2 className="text-3xl font-bold tracking-tight text-white lg:text-5xl">
               Lets work together!
             </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-300">
+            <p className="mt-6 text-lg leading-8 text-gray-200">
               Ac euismod vel sit maecenas id pellentesque eu sed consectetur.
               Malesuada adipiscing sagittis vel nulla.
             </p>

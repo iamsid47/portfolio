@@ -24,7 +24,7 @@ const Sectionmid = () => {
                 organization!
               </p>
 
-              <div className="mt-10 sm:flex sm:items-center sm:space-x-8">
+              <div className="mt-10 flex items-center space-x-4">
                 <a href="/" title="" className="buttonc" role="button">
                   Hire Me &rarr;
                 </a>

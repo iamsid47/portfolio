@@ -8,10 +8,10 @@ const Footer = () => {
       <footer className="p-4">
         <div className="mx-auto max-w-screen-xl text-center flex flex-col md:flex-row justify-between items-center">
           <div className="flex flex-col lg:items-start justify-center items-center">
-            <p className="my-2 text-xl text-gray-300 tracking-tight">
-              for the &#10084; of machine learning.
+            <p className="my-2 text-base lg:text-2xl text-gray-300 tracking-tight">
+              for the &#10084; of startups.
             </p>
-            <ul className="flex flex-wrap justify-center items-center my-2 text-xs ">
+            <ul className="flex flex-wrap justify-center items-center my-2 text-sm capitalize">
               <li>
                 <a
                   href="/contact"
@@ -39,7 +39,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <span className="sm:text-center text-xs my-3 md:my-0">
+          <span className="sm:text-center text-sm my-3 md:my-0">
             © 2023,{" "}
             <a
               href="https://kulthe.com"

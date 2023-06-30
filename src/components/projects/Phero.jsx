@@ -7,7 +7,7 @@ const Phero = () => {
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="flex flex-col">
             <div className="max-w-md mx-auto text-center xl:max-w-lg lg:mx-0 lg:text-left">
-              <h1 className="text-4xl font-light  sm:text-4xl md:text-5xl lg:leading-tight xl:text-7xl">
+              <h1 className="text-6xl font-light  sm:text-4xl md:text-5xl lg:leading-tight xl:text-7xl">
                 Dedication?
                 <br />
                 <span className="font-bold">That's Me</span>.
