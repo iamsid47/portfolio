@@ -21,13 +21,15 @@ export default function Hero() {
           <div className="text-center flex flex-col justify-center items-center">
             <h1 className="animate-fade-in-up text-5xl md:text-8xl mx-3 font-bold tracking-tighter text-white py-2">
               Have an{" "}
-              <span className="text-yellow-400 underline underline-offset-8">
-                idea
-              </span>
+              <div className="relative inline-flex">
+                <span className="absolute inset-x-0 bottom-0 border-b-[30px] border-yellow-500"></span>
+                <h1 className="relative font-bold text-white ">idea</h1>
+              </div>
               , but no{" "}
-              <span className="text-green-500 underline underline-offset-8 pr-3">
-                money
-              </span>
+              <div className="relative inline-flex pr-2">
+                <span className="absolute inset-x-0 bottom-0 border-b-[30px] border-green-500"></span>
+                <h1 className="relative font-bold text-white ">money</h1>
+              </div>
               ?
             </h1>
             <p className="mt-6 text-base lg:text-lg leading-8 px-5 lg:px-12 lg:w-3/5 tracking-normal">

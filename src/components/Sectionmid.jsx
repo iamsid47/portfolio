@@ -7,8 +7,8 @@ const Sectionmid = () => {
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="grid items-center grid-cols-1 gap-12 lg:flex lg:flex-row-reverse">
             <div className="mx-4">
-              <h1 className="text-4xl font-bold text-white sm:text-6xl lg:text-7xl">
-                I ask 12%{" "}
+              <h1 className="text-4xl font-bold text-white sm:text-6xl lg:text-7xl capitalize">
+                Hire a dev for 12%{" "}
                 <div className="relative inline-flex">
                   <span className="absolute inset-x-0 bottom-0 border-b-[30px] border-blue-500"></span>
                   <h1 className="relative text-4xl font-bold text-white sm:text-6xl lg:text-7xl">
