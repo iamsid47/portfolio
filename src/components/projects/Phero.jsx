@@ -7,10 +7,10 @@ const Phero = () => {
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="flex flex-col">
             <div className="max-w-md mx-auto text-center xl:max-w-lg lg:mx-0 lg:text-left">
-              <h1 className="text-6xl font-light  sm:text-4xl md:text-5xl lg:leading-tight xl:text-7xl">
+              <h1 className="h1c">
                 Dedication?
                 <br />
-                <span className="font-bold">That's Me</span>.
+                <span className="font-light">That's Me</span>.
               </h1>
               <p className="mt-5 text-base lg:text-lg font-medium  lg:mt-8">
                 Check out the latest projects I've been working on!
@@ -180,20 +180,20 @@ const Phero = () => {
               <div className="inline-grid grid-cols-3 mt-8 gap-x-8">
                 <div>
                   <p className="text-4xl lg:text-6xl font-bold ">47</p>
-                  <p className="mt-1 text-lg font-medium text-gray-300">
+                  <p className="mt-1 text-base lg:text-lg font-medium text-gray-300">
                     Projects
                   </p>
                 </div>
 
                 <div>
                   <p className="text-4xl lg:text-6xl font-bold ">98</p>
-                  <p className="mt-1 text-lg font-medium text-gray-300">
+                  <p className="mt-1 text-base lg:text-lg font-medium text-gray-300">
                     Repositories
                   </p>
                 </div>
                 <div>
                   <p className="text-4xl lg:text-6xl font-bold ">1B+</p>
-                  <p className="mt-1 text-lg font-medium text-gray-300">
+                  <p className="mt-1 text-base lg:text-lg font-medium text-gray-300">
                     Lines of Code
                   </p>
                 </div>

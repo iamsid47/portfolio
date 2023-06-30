@@ -22,11 +22,9 @@ export default function CTA() {
               </radialGradient>
             </defs>
           </svg>
-          <div className="mx-auto max-w-lg text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-            <h2 className="text-3xl font-bold tracking-tight text-white lg:text-5xl">
-              Lets work together!
-            </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-200">
+          <div className="mx-auto max-w-2xl text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
+            <h2 className="h1c">I'll handle the tech!</h2>
+            <p className="mt-6 text-lg leading-8 text-gray-200 max-w-xl">
               Ac euismod vel sit maecenas id pellentesque eu sed consectetur.
               Malesuada adipiscing sagittis vel nulla.
             </p>

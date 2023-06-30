@@ -10,10 +10,10 @@ const GetinTouch = () => {
         <div className="min-h-screen p-4 flex items-center justify-center">
           <div className="container max-w-screen-lg mx-auto my-8">
             <div className="">
-              <h1 className="animate-fade-in-up text-center mt-5 text-6xl font-bold leading-tight  sm:text-5xl sm:leading-tight lg:text-8xl lg:leading-tight uppercase bg-clip-text text-transparent bg-gradient-to-b from-gray-200 via-gray-400 to-gray-600">
-                Contact
+              <h1 className="animate-fade-in-up h1c text-center">
+                Get in touch
               </h1>
-              <p className=" mb-6 mt-2 text-center text-sm md:text-base">
+              <p className=" mb-6 mt-2 text-center text-sm md:text-base mx-3">
                 Your response will be replied within the next 24-48 hours :)
               </p>
 
@@ -40,7 +40,7 @@ const GetinTouch = () => {
                   <div className="lg:col-span-2 mx-5">
                     <form action="">
                       <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
-                        <div className="md:col-span-5">
+                        <div className="md:col-span-5 mt-2">
                           <label for="full_name">Name</label>
                           <input
                             required
@@ -48,9 +48,10 @@ const GetinTouch = () => {
                             name="full_name"
                             id="full_name"
                             className="h-10 border mt-1 rounded px-4 w-full bg-gray-700 "
+                            placeholder="Jon Doe"
                           />
                         </div>
-                        <div className="md:col-span-5">
+                        <div className="md:col-span-5 mt-2">
                           <label for="email">Email</label>
                           <input
                             required
@@ -58,24 +59,34 @@ const GetinTouch = () => {
                             name="email"
                             id="email"
                             className="h-10 border mt-1 rounded px-4 w-full bg-gray-700 "
+                            placeholder="sample@email.com"
                           />
                         </div>
-                        <div className="md:col-span-5">
+                        <div className="md:col-span-5 mt-2">
+                          <label for="email">Subject</label>
+                          <input
+                            required
+                            type="text"
+                            name="subject"
+                            id="subject"
+                            className="h-10 border mt-1 rounded px-4 w-full bg-gray-700 "
+                            placeholder="I had this awesome idea about..."
+                          />
+                        </div>
+                        <div className="md:col-span-5 mt-2">
                           <label for="message">Message</label>
                           <textarea
-                            cols={90}
+                            cols={120}
                             required
                             type="text"
                             className=" py-3 border mt-1 rounded px-4 w-full bg-gray-700 "
+                            placeholder="So we've come this far, and need your help with..."
                           />
                         </div>
 
                         <div className="md:col-span-5 text-right my-3">
                           <div className="inline-flex items-end">
-                            <button
-                              type="submit"
-                              className="inline-flex rounded-md bg-blue-700 px-3.5 py-1.5 transition duration-200 text-sm font-semibold text-white shadow-sm hover:bg-blue-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
-                            >
+                            <button type="submit" className="buttonc">
                               Send Message
                             </button>
                           </div>

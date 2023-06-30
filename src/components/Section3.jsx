@@ -12,10 +12,8 @@ const ComponentName = () => {
           <div className="flex items-start px-4 pb-16  pt-28 sm:px-6 lg:px-8 lg:pb-24 xl:pr-12">
             <div className="max-w-xl mx-auto lg:mx-0">
               <p className="text-5xl sm:text-6xl lg:text-7xl">✨</p>
-              <h1 className="mt-10 text-3xl font-semibold text-white sm:text-4xl lg:text-7xl">
-                Is developing your idea hard?
-              </h1>
-              <p className="mt-6 text-base lg:text-lg max-w-lg font-normal leading-7 text-gray-300">
+              <h1 className="mt-10 h1c">Is developing your idea hard?</h1>
+              <p className="mt-8 text-base text-gray-200 sm:text-xl">
                 I understand that startups have a hard time when it comes to
                 developing solutions. And that is why, I have decided to help
                 you out with your startup, in a fair exchange for 12% of your
@@ -51,7 +49,7 @@ const ComponentName = () => {
                             Projects
                           </p>
                         </p>
-                        <a href="/" className="buttonc mt-2">
+                        <a href="/projects" className="buttonc mt-2">
                           Learn More &rarr;
                         </a>
                       </div>
@@ -76,7 +74,7 @@ const ComponentName = () => {
                             Companies
                           </p>
                         </p>
-                        <a href="/" className="buttonc mt-2">
+                        <a href="/companies" className="buttonc mt-2">
                           Learn More &rarr;
                         </a>
                       </div>
@@ -98,10 +96,10 @@ const ComponentName = () => {
                       <div className="flex-1 ml-4 lg:ml-6">
                         <p className="mt-2 text-lg font-semibold   lg:text-3xl group-hover:text-gray-600">
                           <p title="" className="">
-                            About
+                            Research
                           </p>
                         </p>
-                        <a href="/" className="buttonc mt-2">
+                        <a href="/research" className="buttonc mt-2">
                           Learn More &rarr;
                         </a>
                       </div>

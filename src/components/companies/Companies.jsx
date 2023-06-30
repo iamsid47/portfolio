@@ -15,9 +15,7 @@ const Companies = () => {
                 <p className="inline-flex relative rounded-full px-3 py-1 text-sm leading-6  ring-1 hover:ring-white ring-blue-500 transition duration-200">
                   Solving real-world problems
                 </p>
-                <h1 className="animate-fade-in-up mt-5 text-6xl font-bold leading-tight sm:leading-tight lg:text-8xl lg:leading-tight uppercase bg-clip-text text-transparent bg-gradient-to-b from-gray-200 via-gray-400 to-gray-600">
-                  Companies
-                </h1>
+                <h1 className="animate-fade-in-up h1c mt-5">Companies</h1>
                 <p className="max-w-md mx-auto mt-6 text-base leading-7 ">
                   Entrepreneurship ain't just about creating products. <br />
                   It's about solving problems.
@@ -27,10 +25,10 @@ const Companies = () => {
                   <a
                     href="https://getnoel.com"
                     title=""
-                    className="relative inline-flex items-center rounded-md bg-blue-700 px-3.5 py-1.5 transition duration-200 font-semibold text-white shadow-sm hover:bg-blue-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                    className="buttonc"
                     role="button"
                   >
-                    Check Noel &rarr;
+                    Check Out Noel &rarr;
                   </a>
                 </div>
               </div>

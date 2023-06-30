@@ -15,7 +15,7 @@ const Sect2 = () => {
         <div className="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-y-4 lg:items-center lg:flex lg:flex-row-reverse gap-x-12">
             <div className="text-center xl:col-span-1 lg:text-left md:px-16 lg:px-0 xl:pl-20">
-              <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl sm:leading-tight lg:text-6xl lg:leading-tight capitalize">
+              <h1 className="h1c">
                 An editor that helps you write clean codes.
               </h1>
               <p className="mt-4 text-base lg:text-lg text-gray-300 sm:mt-6 ">
