@@ -54,3 +54,14 @@ code {
 ::-webkit-scrollbar-thumb:hover {
   background: #222;
 }
+
+.bgc {
+  @apply bg-black text-gray-50 font-light tracking-tight;
+}
+
+.buttonc {
+  @apply rounded-md inline-flex capitalize justify-center items-center  bg-blue-700 px-4 py-3 transition duration-200 font-semibold text-white shadow-sm hover:bg-blue-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600;
+}
+.buttoncs {
+  @apply rounded-md inline-flex capitalize justify-center items-center bg-gray-800  px-4 py-3 transition duration-200 font-semibold text-white shadow-sm hover:bg-gray-800/50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600;
+}

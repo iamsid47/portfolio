@@ -4,6 +4,7 @@ import GetinTouch from "./components/contact/GetinTouch";
 import About from "./components/about/About";
 import Companies from "./components/companies/Companies";
 import Research from "./components/research/Research";
+import Project from "./components/projects/Project";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
+          <Route exact path="/projects" element={<Project />} />
           <Route exact path="/contact" element={<GetinTouch />} />
           <Route exact path="/companies" element={<Companies />} />
           <Route exact path="/research" element={<Research />} />
