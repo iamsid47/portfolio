@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Sect2 = () => {
   return (
-    <div className="bgc py-12">
+    <div className="bgc py-12 px-5">
       <section className="relative py-12 sm:py-16 lg:pb-40">
         <div className="absolute bottom-0 right-0 overflow-hidden">
           <img
@@ -18,7 +18,7 @@ const Sect2 = () => {
               <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl sm:leading-tight lg:text-6xl lg:leading-tight capitalize">
                 An editor that helps you write clean codes.
               </h1>
-              <p className="mt-2 text-lg text-gray-300 sm:mt-6 ">
+              <p className="mt-4 text-base lg:text-lg text-gray-300 sm:mt-6 ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vehicula massa in enim luctus. Rutrum arcu.
               </p>
@@ -75,7 +75,7 @@ const Sect2 = () => {
                   <p className="text-lg font-bold text-white ">
                     Best code editor in market!
                   </p>
-                  <p className="mt-3 text-base leading-7 text-gray-300 ">
+                  <p className="mt-3 text-base leading-7 text-gray-300 hidden lg:inline-block">
                     Consectetur adipiscing elit. Vehicula massa in enim luctus.
                     Rutrum arcu, aliquam nulla tincidunt gravida. Cursus
                     convallis dolor semper pretium ornare.
