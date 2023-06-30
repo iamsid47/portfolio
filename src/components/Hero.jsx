@@ -19,7 +19,7 @@ export default function Hero() {
             </a>
           </div>
           <div className="text-center flex flex-col justify-center items-center">
-            <h1 className="animate-fade-in-up text-6xl md:text-8xl mx-3 font-bold tracking-tighter text-white py-2">
+            <h1 className="animate-fade-in-up text-5xl md:text-8xl mx-3 font-bold tracking-tighter text-white py-2">
               Have an{" "}
               <span className="text-yellow-400 underline underline-offset-8">
                 idea

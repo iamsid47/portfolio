@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Sect2 = () => {
   return (
-    <div className="bgc py-12 px-5">
+    <div className="bgc py-12 px-3">
       <section className="relative py-12 sm:py-16 lg:pb-40">
         <div className="absolute bottom-0 right-0 overflow-hidden">
           <img
