@@ -30,7 +30,7 @@ export default function Hero() {
               </span>
               ?
             </h1>
-            <p className="mt-6 text-base lg:text-lg leading-8 px-12 lg:w-3/5 tracking-normal">
+            <p className="mt-6 text-base lg:text-lg leading-8 px-5 lg:px-12 lg:w-3/5 tracking-normal">
               Hey 👋 I'm Siddhesh. I'm a Machine Learning Engineer, also with
               experience in Web and App development. I can help you out with
               your idea or projects!
